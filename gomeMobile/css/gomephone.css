@@ -1,0 +1,504 @@
+/*reset*/
+body,ul{
+	
+	margin: 0px;
+}
+ul{
+	display: none;
+}
+
+img{
+	border: none;
+	vertical-align: top;
+}
+input {
+	-webkit-appearance:none;
+}
+/*reset end*/
+/*head*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+				content: "";
+				display: block;
+				clear: both;
+}
+.head{
+	width: 100%;
+	height: 1.375rem;
+	background: #ee3030;
+	
+	
+}
+.content{
+	height: 237.03125rem;
+}
+
+.logo{
+	width:1.96875rem;
+	height:1.375rem;	
+	background:url(../img/gome-logo.jpg) no-repeat 0px 0px ;
+	background-size:1.96875rem ;
+
+}
+
+.search{
+	width: 6.65625rem;
+	height:1rem ;
+	background: #ffebec;
+	border-radius: 0.15625rem;
+	margin-top: 0.21875rem;
+	font-size: 0.34375rem;
+	color: #939590;
+	line-height:1rem  ;
+	text-indent : 0.5625rem;
+	position: relative;
+	
+}
+
+.register{
+	width:1.375rem;
+	height:1.375rem ;
+	background:url(../img/denglu.jpg) no-repeat ;
+	background-size:1.375rem ;
+}
+
+.find-pic{
+	width: 0.75rem;
+	height: 1rem;
+	background: url(../img/find.jpg) no-repeat  ;
+	background-size:0.75rem;
+	position: absolute;
+	left: 5.65625rem;
+	top:0rem;
+}
+/*head end*/
+
+/*body*/
+
+.poster{
+	width: 100%;
+	height: 3.5rem;
+
+}
+.poster img{
+	width: 100%;
+}
+.nav{
+	width: 100%;
+	height: 4.625rem;
+	
+}
+.nav-pic{
+	margin-right: 0.953125rem;
+	width:1.484375rem ;
+	height:2.3125rem;
+}
+.nav-pic1{
+	width:1.484375rem ;
+	height:2.3125rem;
+}
+.nav-pic2{
+	margin-left: 0.625rem;
+	margin-right: 0.953125rem;
+	width:1.484375rem ;
+	height:2.3125rem;
+}
+
+.nav img{
+	width: 100%;	
+}
+
+.poster2{
+	width: 100%;
+	height: 2.96875rem;
+	background:#f2f2f2 ;
+	
+	
+}
+.poster-1,.poster-2{
+	width: 4.78125rem;
+	height: 2.34375rem;
+	margin-top: 0.3125rem;
+}
+.poster-1{
+	margin-left: 0.15625rem;
+	margin-right: 0.125rem;
+}
+.poster2 img{
+	width: 100%;
+}
+.alone{
+	width: 100%;
+	height: 7.5625rem
+}
+.palm{
+	width: 6.671875rem;
+	height: 3.75rem;
+	border-right:0.015625rem solid #e6e6e6 ;
+	border-bottom:0.015625rem solid #e6e6e6 ;
+}
+.palm img{
+	width: 100%;
+}
+.Japan{
+	width:3.296875rem ;
+	height:3.75rem;
+	border-bottom:0.015625rem solid #e6e6e6 ;
+}
+.Japan img{
+	width: 100%;
+}
+.haier{
+	width: 3.328125rem;
+	height:3.78125rem;
+	border-right:0.015625rem solid #e6e6e6 ;
+}
+.haier img{
+	width: 100%;
+}
+.meidi{
+	width: 3.3125rem;
+	height:3.78125rem;
+	border-right:0.015625rem solid #e6e6e6 ;
+}
+.meidi img{
+	width: 100%;
+}
+
+.qiang{
+	width: 3.296875rem;
+	height:3.78125rem;
+}
+
+.qiang img{
+	width: 100%;
+}
+.poster3{
+	width: 100%;
+	height: 3.0625rem;
+	background: #f2f2f2;
+	
+}
+.poster3-p{
+	width: 9.6875rem;
+	height: 2.4375rem;
+	margin-top: 0.3125rem;
+	margin-left: 0.15625rem;
+	
+}
+.poster3-p img{
+	width: 100%;
+}
+img{
+	width: 100%;
+}
+.feature{
+	width: 100%;
+	height: 1.21875rem;	
+}
+
+.feature-box{
+	width: 100%;
+	height:8.21875rem ;
+	border-top:0.03125rem solid #e4e4e4;
+	border-bottom:0.03125rem solid #e4e4e4;
+}
+.feature-l{
+	width:5rem ;
+	height: 5.5rem;
+}
+.feature-r{
+	width:5rem ;
+	height: 5.5rem;
+}
+
+.lg{
+	width: 4.96875rem;
+	height:2.71875rem;
+	border-right:0.03125rem solid #e4e4e4 ;
+	border-bottom:0.03125rem solid #e4e4e4;
+}
+
+.greens{
+	width: 4.96875rem;
+	height: 2.71875rem;
+	border-right:0.03125rem solid #e4e4e4;
+	border-bottom:0.03125rem solid #e4e4e4;
+}
+.mi4c{
+	width: 4.96875rem;
+	height:5.46875rem;
+	border-right:0.03125rem solid #e4e4e4;
+	border-bottom:0.03125rem solid #e4e4e4;
+}
+
+.trend,.live{
+	width: 4.96875rem;
+	height: 2.71875rem;
+	border-right:0.03125rem solid #e4e4e4;
+}
+.sift{
+	width: 100%;
+	height: 1.5rem;
+	background: #f2f2f2;
+}
+.sift-pic{
+	width: 100%;
+	
+	margin-top:0.28125rem ;
+	display: inline-block;
+}
+.ad-apple{
+	width: 100%;
+	height:3.578125rem ;
+}
+.adapple-p{
+	
+}
+
+.brand{
+	width: 100%;
+	height: 2.21875rem;
+	border-bottom:0.03125rem solid #f2f2f2 ;
+}
+.brand-p1{
+	width: 2.84375rem;
+	height:2.21875rem;
+}
+.brand-p2{
+	width: 3.03125rem;
+	height:2.21875rem;
+}
+.brand-p3{
+	width: 2.5625rem;
+	height:2.21875rem;
+}
+.brand-p4{
+	width:1.5625rem;
+	height:2.21875rem;
+}
+.manybrand{
+	width: 100%;
+	height:13.71875rem;
+	border-top:0.03125rem solid #e6e6e6 ;
+	border-bottom:0.03125rem solid #f4f4f4;
+}
+
+.haixin{
+	width:4.96875rem ;
+	height:2.71875rem ;
+	border-right:0.03125rem solid #e6e6e6 ;
+	border-bottom:0.03125rem solid #e6e6e6;
+}
+.Haier{
+	width:4.96875rem ;
+	height:5.46875rem ;
+	border-right:0.03125rem solid #e6e6e6 ;
+	border-bottom:0.03125rem solid #e6e6e6;
+}
+.poster4{
+    width: 100%;
+    height: 3.0625rem;
+    background: #f2f2f2;
+}
+
+.poster4-p{
+    width: 9.6875rem;
+    height: 2.4375rem;
+    margin-top: 0.3125rem;
+    margin-left: 0.15625rem;
+    display: inline-block;
+}
+.sanchunk{
+	width: 100%;
+	height: 5.75rem;
+	background:#f2f2f2 ;
+	border-top:0.015625rem ;
+	border-bottom:0.03125rem ;
+	
+}
+.weiyugo{
+	width:4.96875rem ;
+	height:5.46875rem ;
+	border-right:0.03125rem ;
+}
+
+.right-t{
+	width:4.96875rem ;
+	height:2.71875rem ;
+	border-right:0.03125rem  ;
+	border-bottom: 0.03125rem ;
+}
+
+.right-b{
+	width:4.96875rem ;
+	height:2.71875rem ;
+	border-right:0.03125rem  ;
+}
+.goodshop{
+	width:100% ;
+	height:5.03125rem ;
+	
+}
+.goodshop-t{
+	width: 100%;
+	height: 1.21875rem;
+}
+.t-left{
+	width:2.859375rem ;
+	height: 1.21875rem ;
+}
+.t-right{
+	width: 4.125rem;
+	height:  1.21875rem ;
+}
+.b-left{
+	width:4.765625rem ;
+	height:3.21875rem ;
+	margin-left:0.15625rem ;
+	margin-right: 0.15625rem;
+}
+.b-right{
+	width:4.765625rem ;
+	height:3.21875rem ;
+	margin-right: 0.15625rem;
+}
+.circle-box{
+	width: 1.09375rem;
+	height:0.15625rem ;
+	margin: 0 auto;
+}
+.circle{
+	width: 0.15625rem;
+	height: 0.15625rem;
+	border-radius:0.15625rem;
+	background: red;
+}
+.circle1{
+	width: 0.15625rem;
+	height: 0.15625rem;
+	border-radius:0.15625rem;
+	background: #dcdcdc;
+	margin-left: 0.3125rem;
+	margin-right:0.3125rem ;
+}
+.circle2{
+	width: 0.15625rem;
+	height: 0.15625rem;
+	border-radius:0.15625rem;
+	background: #dcdcdc;
+	
+}
+.recommend{
+	width: 100%;
+	height:166.578125rem ;
+	border-top:0.015625rem solid #e8e8e8 ;
+	border-bottom:0.03125rem solid #e8e8e8;
+	background:#f2f2f2;
+}
+.recommend-h{
+	width: 100%;
+	height: 1.109375rem;
+}
+.recommend-pic{
+	height:1.109375rem ;
+}
+.kangjia{
+	width: 4.375rem;
+	height: 6.78125rem;
+	border:0.03125rem  solid #e8e8e8;
+	margin-left: 0.28125rem;
+	margin-right: 0.21875rem;
+	margin-bottom:0.3125rem ;
+}
+.meiling{
+	width: 4.375rem;
+	height: 6.78125rem;
+	border:0.03125rem  solid #e8e8e8;
+	margin-bottom:0.3125rem ;
+}
+
+.dibu{
+	width: 100%;
+	height: 0.34375rem;
+	
+}
+.no{
+	width: 2.5625rem;
+	height: 0.34375rem;
+	display: block;
+	margin: 0px auto;
+	
+}
+
+/*body end*/
+
+/*foot*/
+.foot{
+	width: 100%;
+	height:7.5rem ;
+}
+
+
+.foot-t{
+	width:100%;
+	height:1.40625rem  ;
+	border-bottom:0.03125rem  solid #e8e8e8;
+}
+.ft-item1{
+	width:0.015625rem ;
+	height:1.40625rem ;
+}
+.ft-item{
+	width:1.59375rem ;
+	height:1.40625rem ;
+}
+.ft-item2{
+	width:1.671875rem ;
+	height:1.40625rem ;
+}
+.ft-item3{
+	width:3.65625rem ;
+	height:1.40625rem ;
+}
+.ft-item4{
+	width:1.640625rem ;
+	height:1.40625rem ;
+}
+.ft-item5{
+	width: 1.40625rem;
+	height:1.40625rem ;
+}
+
+
+.b-top{
+	width: 100%;
+	height:1.3125rem ;
+}
+.touch{
+	width: 3.78125rem;
+	height:1.3125rem ;
+}
+.computer{
+	width: 2.46875rem;
+	height:1.3125rem ;
+}
+.client{
+	width: 3.75rem;
+	height:1.3125rem ;
+}
+.b-b{
+	width: 100%;
+	height:1.765625rem;
+}
+.foot-b{
+	width: 100%;
+	height:3.0625rem;
+	
+}
+/*foot end*/

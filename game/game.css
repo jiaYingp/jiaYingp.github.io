@@ -1,0 +1,392 @@
+@keyframes move{
+	0%{
+		transform: rotate(95deg);
+		}
+	100%{
+			transform: rotate(0deg);	
+		}
+}
+@keyframes move1{
+	0%{
+		transform: rotate(-95deg);				
+			}
+	100%{
+		transform: rotate(0deg);	
+			}
+}
+@keyframes move2{
+	0%{			
+		transform: rotate(0deg);				
+			}
+	100%{
+		transform: rotate(95deg);
+			}
+}
+@keyframes bj_move{
+	0%{
+		transform: translateX(0px);
+		}
+	100%{
+		transform: translateX(-1000px);
+		}
+}
+@keyframes jn_move{
+	0%{
+		transform: scale(1);
+		}
+	100%{
+		transform: scale(6);
+		}
+}
+	@keyframes p2move{
+	0%{
+		transform: rotate(0deg);
+		}
+	100%{
+			transform: rotate(360deg);	
+		}
+}
+@keyframes font_move{
+				0%{
+				transform: scale(1);
+				}
+				100%{
+				transform: scale(2);
+				}
+}
+		
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}		
+#people{
+	margin: 50px;
+	width: 32px;
+	height:70px;
+	position: absolute;
+	left: 90px;
+	top: 256px;
+	z-index: 1;
+	-webkit-box-reflect: below 0px -webkit-linear-gradient(rgba(0,0,0,0) 1%, rgba(0,0,0,1) 90%);
+	transition: 0.1s;
+	transform: rotateY(0deg);
+	display: none;
+}
+
+
+#people .head{
+	width: 20px;
+	height: 20px;
+	background: red;
+	border-radius: 10px;
+	line-height: 10px;
+
+}
+#people .body{
+	width: 4px;
+	height: 20px;
+	background: red;
+	position: absolute;
+	left: 8px;
+	top: 20px;
+	
+}
+#people .left_arm{
+	width:15px;
+	height: 15px;
+	border-left: 4px solid red;
+	border-bottom: 4px solid red;
+	position: absolute;
+	left:8px ;
+	top:22px;
+	transform-origin: 1px 1px;
+	transform: rotate(0deg);
+	animation:0.2s move linear infinite alternate;
+	border-radius: 3px;
+	-webkit-animation-play-state:paused
+	
+	
+}
+#people .right_arm{
+	width:15px;
+	height: 15px;
+	border-left: 4px solid red;
+	border-bottom: 4px solid red;
+	position: absolute;
+	left:8px ;
+	top:22px;
+	transform-origin: 1px 1px;
+	transform:rotate(0deg);
+	animation:0.2s move1 linear infinite alternate;
+	border-radius: 3px;
+	-webkit-animation-play-state:paused
+}
+#people .left_leg{
+	width:20px;
+	height:18px;
+	border-radius: 2px;
+	border-right: 4px solid red;
+	border-top: 4px solid red;
+	position: absolute;
+	left:8px ;
+	top:37px;
+	transform-origin: 1px 4px;
+	animation:0.2s move linear infinite alternate;	
+	-webkit-animation-play-state:paused;
+	/*transform:skewY(45deg)*/
+}
+#people .right_leg{
+	width:20px;
+	height:18px;
+	border-radius: 2px;
+	border-right: 4px solid red;
+	border-top: 4px solid red;
+	position: absolute;
+	left:8px ;
+	top:37px;
+	transform-origin: 1px 4px;
+	animation: 0.2s move2  linear infinite alternate;	
+	-webkit-animation-play-state:paused;
+	/*transform:skewY(-35deg)*/
+}
+.bj{
+	width: 1000px;
+	height: 185px;
+	overflow: hidden;
+	position: relative;
+	left: 0px;
+	top: 180px;
+	
+}
+.bj ul li{
+	width: 1000px;
+	height: 185px;
+	background: url(img/ciry.jpg) no-repeat;
+	opacity: 0.5;
+	float: left;
+	
+}
+.bj ul{
+	width:2000px;
+	height: 185px;
+	animation:4.8s bj_move linear infinite;	
+	-webkit-animation-play-state:paused
+}
+
+.za{
+	width: 80px;
+	height: 80px;
+	background: black;
+	position: absolute;
+	left: 900px;
+	top:85px ;
+}
+.za1{
+	width: 80px;
+	height: 80px;
+	background: black;
+	position: absolute;
+	left: 600px;
+	top:85px ;
+}
+.obstacle{
+	width: 135px;
+	height: 78px;
+	position: absolute;
+	left:1008px;
+	top:126px;
+	z-index: 1;
+}
+.obstacle1{
+	width: 100px;
+	height: 25px;
+	position: absolute;
+	left:1008px;
+	top: 161px;
+	z-index: 1;
+}
+.obstacle2{
+	width: 100px;
+	height: 25px;
+	position: absolute;
+	left:1010px;
+	top: 107px;
+	z-index: 1;
+
+}
+.wuqi{
+	width: 90px;
+	height: 20px;
+	display: inline-block;
+	animation:1s font_move linear;
+	-webkit-animation-play-state:paused
+}
+/*.img{
+	width: 300%;
+}*/
+#box{
+	width: 1000px;
+	height:365px;
+	border: 1px solid black;
+	overflow: hidden;
+	z-index: 11;
+
+}
+#state{
+	width: 250px;
+	height: 80px;
+	position: absolute;
+	left: 700px;
+	top:20px;		
+}
+.car{
+	width: 140px;
+}
+.car2{
+	width: 100px;
+}
+.score{
+	margin-right: 10px;
+}
+.jn{
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	line-height: 20px;
+	background: red;
+	position: absolute;
+	left: 110px;
+	top: 140px;
+	animation:2s jn_move linear infinite ;
+}
+
+#people2{
+	width: 32px;
+	height:80px;
+	position: absolute;
+	left: 115px;
+	top: 300px;
+	animation:1s p2move linear infinite ;
+	z-index: 14;
+	display: none;
+	transform: rotateY(0deg);
+
+}
+#people2 .rhead{
+		width: 20px;
+		height: 20px;
+		background: red;
+		border-radius: 10px;
+		line-height: 10px
+	}
+#people2 .rbody{
+		width:6px;
+		height:25px;
+		border-radius: 3px;
+		position: absolute;
+		background: red;
+		left: 7px;
+	}
+#people2 .rarm{
+		width: 20px;
+		height:4px ;
+		border-radius: 2px;
+		background: red;
+		transform: rotate(191deg);
+		position: absolute;
+		left: 7px;
+		
+	}
+#people2 .rlag{
+		width: 20px;
+		height:5px ;
+		border-radius: 2px;
+		background: red;
+		transform: rotate(144deg);
+		position: absolute;
+		top: 36px;
+		left: 7px;
+		
+	}
+#people2 .rlag1{
+		width: 4px;
+		height:20px ;
+		border-radius: 2px;
+		background: red;
+		position: absolute;
+		border-radius: 2px;
+		transform: rotate(157deg);
+		top: 32px;
+		left: 27px;
+		
+	}
+.zz{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	left: 360px;
+	top: 100px;
+	display: none;
+	z-index: 20;
+	
+}
+.ks{
+	width: 300px;
+	height: 100px;
+	position: absolute;
+	left: 360px;
+	top: 150px;
+	z-index: 20;
+	font-size: 40px;
+	letter-spacing:12px;
+	color: black;
+	text-align: center;
+	line-height:100px;
+	border-radius: 20px;
+	box-shadow: -1px 0px 14px -6px black;
+
+}
+
+.gomeover{
+	width: 300px;
+	height: 100px;
+	font-size:40px;
+	text-align: center;
+	line-height: 100px;
+	color: #535353;
+	letter-spacing:12px;
+	
+}
+.shuaxin{
+	width: 35px;
+	height: 35px;
+	background:url(img/shuaxin.png) no-repeat; 
+	position: absolute;
+	left: 131px;
+	top: 127px;
+	
+}
+.bz{
+	width: 140px;
+	height: 123px;
+	position: absolute;
+	left: 9999px;
+	top: 62px;
+	z-index: 44;
+}
+.b-pic{
+	height: 140px;
+}
+.bz2{
+	width: 121px;
+	height: 111px;
+	position: absolute;
+	left: 9999px;
+	top: 72px;
+	z-index: 44;	
+}
+.b-pic1{
+	height: 110px;
+	/*color: ;*/
+}
