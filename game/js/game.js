@@ -175,7 +175,7 @@ window.onload=function(){
 				if(n==1000){
 					hinder2 ()
 				}
-				if(n%150==0){
+				if(n%90==0){
 					x++
 					wuqi.innerHTML='技能:'+ x;
 					wuqi.style.animationPlayState="running";
